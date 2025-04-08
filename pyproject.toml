@@ -6,9 +6,13 @@ authors = [
     {name = "Zheng Yuhao",email = "zheng.yuhao@cloud-ace.jp"}
 ]
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.12,<4.0"
 dependencies = [
-    "jupyter-contrib-nbextensions (>=0.7.0,<0.8.0)"
+    "jupyter-contrib-nbextensions (>=0.7.0,<0.8.0)",
+    "langchain (>=0.3.23,<0.4.0)",
+    "langchain-google-vertexai (>=2.0.19,<3.0.0)",
+    "langchain-google-genai (>=2.1.2,<3.0.0)",
+    "langsmith (>=0.3.24,<0.4.0)"
 ]
 
 
